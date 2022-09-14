@@ -29,13 +29,15 @@
         </li>
       </ol>
       <form>
-        <p>First Name:</p>
-        <input type="text" />
-        <p>Last Name:</p>
-        <input type="text" />
-        <div class="button">Submit</div>
+        <label>First Name:
+          <input type="text" />
+        </label>
+        <label>Last Name:
+          <input type="text" />
+        </label>
+        <button aria-label="Submit the form" class="button" type="submit">Submit</button>
       </form>
-      <img src="../static/kitten.jpeg" />
+      <img tabindex="0" alt="Kitten" src="../static/kitten.jpeg" />
     </div>
   </body>
 </html>
